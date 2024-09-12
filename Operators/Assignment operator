@@ -1,0 +1,6 @@
+//Assignment operators => =, +=, -=, /=, %=, *=, **= (Assign values to variables)
+let z = 4
+console.log(z /= 6); //0.6666
+console.log(z = 2);
+console.log(z /= 2);
+
