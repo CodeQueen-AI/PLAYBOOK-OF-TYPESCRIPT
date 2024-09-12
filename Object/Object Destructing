@@ -1,0 +1,5 @@
+//Object Destructing =>A syntax that extracts values from an object into individual variables
+const person = { names: "Codequeen", age: 17 };
+const { names, age } = person; // Extracts name and age into variables
+console.log(names); // Output: Alice
+console.log(age);  // Output: 30
