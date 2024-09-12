@@ -1,0 +1,9 @@
+//Primitive Datatype =>Basic data types that represent single values such as strings, number , boolean , any , null , undefined , unknown , BigInt
+let names : string = 'Codequeen'
+let num : number = 34
+let isActive : boolean = true;
+let fruit : any = 'Apple'
+let bigInt = (0.444)
+let std1 : unknown = "Anusha"
+let std2 : null = null
+let std3 : undefined = undefined
