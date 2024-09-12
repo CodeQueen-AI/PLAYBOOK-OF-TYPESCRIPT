@@ -1,0 +1,4 @@
+//Array destructing =>it allows you to unpack values from an array into separate variables
+let [first , Second] = [1 , 2]
+console.log(first);
+console.log(Second);
