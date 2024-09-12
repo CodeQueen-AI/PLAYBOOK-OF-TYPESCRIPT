@@ -1,0 +1,2 @@
+//Implicit Type Conversion =>Automatic type conversion done by the compiler.
+let results = '5' - 2; // Result is 3 (number), automatic type conversion of '5' to number.
