@@ -1,0 +1,5 @@
+//Optional Paramter =>An optional parameter is a function argument that doesn not need to be provided
+function data2(num1 : number , num2? : number){
+    console.log(num1);
+}
+data2(6)
