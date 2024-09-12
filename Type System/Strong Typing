@@ -1,0 +1,3 @@
+//Strong Typing =>Strong typing makes sure you only use the correct types of values and it does not let you mix different types
+let value : number = 25
+value = 'twenty five' //Error
