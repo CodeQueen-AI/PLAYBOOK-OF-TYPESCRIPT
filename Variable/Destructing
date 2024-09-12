@@ -1,0 +1,13 @@
+//Variable Destructing =>Variable destructuring in TypeScript extracts values from arrays or objects and assigns them to 
+variables in one step
+
+//ArrayDestructing
+let fname = ['Anusha' , 'ifra' , 'Quraitulain'];
+let [first , Second , Third] = fname
+console.log(first);
+console.log(Second);
+console.log(Third);
+
+//Object Destructing
+let person = {names : 'Anu' , age : 18}
+let {names , age} = person
