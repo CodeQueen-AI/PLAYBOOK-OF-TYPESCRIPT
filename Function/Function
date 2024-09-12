@@ -1,0 +1,5 @@
+//Function =>A function is a reusable block of code that performs a specific task
+function greeting(){
+    console.log('Hello World');
+}
+greeting()
