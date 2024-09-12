@@ -1,0 +1,9 @@
+//Object =>It is a collection of key-value pairs
+let std = {
+    name : "Codequeen",
+    age : 17,
+    Id : 'GIAIC'
+}
+console.log(std);
+console.log(std.name);
+console.log(std['age']);
