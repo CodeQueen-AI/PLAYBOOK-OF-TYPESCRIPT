@@ -1,0 +1,7 @@
+//Updating Elements => To update an element in an array, assign a new value to its index number
+let number : number[] = [1 , 2 , 3 , 5]
+number[3] = 5;
+
+let fruits = ["apple", "banana", "cherry"];
+fruits[1] = "orange"; // Updates "banana" to "orange"
+
