@@ -1,0 +1,63 @@
+//Type =>A label for a specific shape or structure of an object
+type abc = {}
+//Cannot be extended or merged => type cannot be extended or merged like interface
+type Person5 = {
+    name: string;
+    age: number;
+};
+// Error: Cannot extend a type alias.
+// type Employee = Person & { employeeId: string }; // Works, but not extendable or mergeable.
+
+//No declaration merging: Multiple type aliases with the same name cannot be merged.
+type Person1 = {
+    name: string;
+};
+
+// Error: Duplicate identifier 'Person'.
+// type Person = {
+//     age: number;
+// };
+
+//Interface =>Defines the shape and properties of an object
+interface test {}
+
+//Cannot represent primitive types or unions: interface is designed to describe object shapes and cannot directly represent union types or primitive types.
+// Error: `interface` cannot represent a union type directly.
+// interface MyType = string | number; // Not allowed
+
+//No direct support for utility types: interface does not directly support utility types like Partial or Pick.
+interface Person2 {
+    name: string;
+    age: number;
+}
+
+// `Partial` and other utility types work with `type`.
+// type PartialPerson = Partial<Person>; // Works with `type`, not directly with `interface`.
+//Example demonstrating limitations:
+
+// Type limitations
+type A = { x: number };
+type B = { y: string };
+type C = A & B; // Intersection works, but not extendable or mergeable.
+
+type D = { x: number };
+// Error: Duplicate identifier 'A'.
+// type A = { z: boolean };
+
+// Interface limitations
+interface Person2 {
+    name: string;
+}
+
+// Interfaces can be merged
+interface Person3 {
+    age: number;
+}
+
+const person9: Person = {
+    name: "Alice",
+    age: 30
+};
+
+// Error: Interface cannot directly represent a union type
+// interface MyType = string | number; // Not allowed
