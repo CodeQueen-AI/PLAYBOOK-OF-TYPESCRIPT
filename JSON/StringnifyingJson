@@ -1,0 +1,4 @@
+//Stringnifying JSON =>Converting a Javascript Object into a Json Object
+let obj: object = { name: "Bob", age: 30 };
+let jsonString1: string = JSON.stringify(obj);
+console.log(jsonString1); // Output: '{"name":"Bob","age":30}'
