@@ -1,0 +1,10 @@
+//Default parameter =>A default parameter is a value automatically used by a function if no argument is provided
+function std(names : string = 'Codequeen'){
+    console.log(names);
+}
+std()
+
+function student(names : string = "mehak"){
+    console.log(student);
+}
+student("Anusha")
