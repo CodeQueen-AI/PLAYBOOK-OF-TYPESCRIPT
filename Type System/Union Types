@@ -1,0 +1,5 @@
+//Union Types =>it  allows a variable to hold values of multiple types
+let name1 : string | number 
+name1 = 'Codequeen'
+// name1 = true Error
+name1 = 17
