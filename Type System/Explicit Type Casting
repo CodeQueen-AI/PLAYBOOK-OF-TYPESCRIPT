@@ -1,0 +1,5 @@
+//Explicit Type Casting =>Converting one type to another type
+let value4: any = '123';
+let num: number = <number><any>value4; // Type assertion using <type>
+// or
+let num1: number = value4 as number; // Type assertion using 'as'
