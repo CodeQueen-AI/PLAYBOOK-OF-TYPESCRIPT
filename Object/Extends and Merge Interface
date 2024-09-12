@@ -1,0 +1,38 @@
+// Extends interface => Creates a new interface that includes all properties of one or more existing interfaces
+interface Person {
+    name: string;
+    age: number;
+}
+
+interface Employee extends Person {
+    employeeId: string;
+}
+
+const employee: Employee = {
+    name: "Alice",
+    age: 30,
+    employeeId: "E123"
+};
+
+// Merge interface => Combines multiple interfaces with the same name into a single interface
+interface Person8 {
+    name: string;
+    age: number;
+}
+
+interface Contact {
+    email: string;
+    phone: string;
+}
+
+interface Employee extends Person, Contact {
+    employeeId: string;
+}
+
+const employee: Employee = {
+    name: "Alice",
+    age: 30,
+    email: "alice@example.com",
+    phone: "123-456-7890",
+    employeeId: "E123"
+};
