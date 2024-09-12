@@ -1,0 +1,4 @@
+//Array Index  =>The position of an element in an array starting from 0
+let array = ['ifra' , 'Anusha' , 'Quratulain']
+let index = array[1]
+console.log(index);
