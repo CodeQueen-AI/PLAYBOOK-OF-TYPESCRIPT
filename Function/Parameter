@@ -1,0 +1,5 @@
+Parameter =>A parameter is a placeholder for the value you pass into a function
+function add(a: number, b: number): number {
+    return a + b;
+}
+console.log(add(2 , 9));
