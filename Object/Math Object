@@ -1,0 +1,32 @@
+//Math Object =>A built-in object in JavaScript for mathematical operations and constants
+//Round =>Rounds a number to the nearest integer
+let num : number = Math.round(10.7)
+console.log(num);
+
+//Ceil =>Rounds a number up to the nearest integer
+let num1 : number = Math.ceil(10.3)
+console.log(num1);
+
+//Floor =>Rounds a number down to the nearest integer
+let num2 : number = Math.floor(10.4)
+console.log(num2);
+
+//Trunc =>Removes the fractional part of a number, keeping only the integer part
+let num3 : number = Math.trunc(11.97543)
+console.log(num3);
+
+//Power =>Raises a number to the power of another number
+let num4 : number = Math.pow(2 , 2)
+console.log(num4);
+
+//Square =>Calculates the square root of a number
+let num5 : number = Math.sqrt(9)
+console.log(num5);
+
+//Minimum =>Finds the smallest number among given values
+let num6 : number = Math.min(10 , 100 , 10000 , 1 , 80)
+console.log(num6);
+
+//Maximum =>Finds the smallest number among given values
+let num7 : number = Math.max(8 , 5, 10 , 40)
+console.log(num7);
