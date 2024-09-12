@@ -1,0 +1,4 @@
+//Array Length => the number of element in an array
+let array = [1 , 2, 3]
+let lengths = array.length
+console.log(lengths);
