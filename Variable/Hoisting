@@ -1,0 +1,5 @@
+//Hoisting =>Hoisting in TypeScript moves variable and function declarations to the top of their scope, 
+//not their values
+
+//console.log(firstname);
+let firstname1 = 'Codequeen';
