@@ -1,0 +1,3 @@
+//Assignibility Error => when you assign the wrong type of value to a variable.
+let fullname : string = 'Codequeen'
+fullname = 123
