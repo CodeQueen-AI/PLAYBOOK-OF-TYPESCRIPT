@@ -1,0 +1,13 @@
+//Nested Function =>A nested function is a function defined inside another function
+let greeting1 = () : void => {
+    console.log('Hello World');
+}
+let greeting2 = () => {
+    greeting1()
+}
+
+let sum4 = () => {
+    return 2 + 2
+}
+let total = sum()
+console.log(total);
