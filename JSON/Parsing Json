@@ -1,0 +1,5 @@
+//Parsing json => Converting a JSON string into a Javascript Object
+let jsonString: string = '{"name": "Alice", "age": 25}';
+let jsonObject: object = JSON.parse(jsonString);
+console.log(jsonObject); // Output: { name: 'Alice', age: 25 }
+
