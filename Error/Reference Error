@@ -1,0 +1,2 @@
+//Reference Error => when try to access something that does not exist in the code
+console.log(Referenceerror);
