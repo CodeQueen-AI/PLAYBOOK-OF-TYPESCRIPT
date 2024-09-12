@@ -1,0 +1,12 @@
+//Case Sensitive =>Treats upper and lowercase letter as different
+//camel Case =>Variables should start with a lowercase letter and use uppercase letters to separate words
+let firstName = 'codeQueen'
+console.log(firstName);
+
+//Snake Case =>Words are separated by underscores
+let full_name = 'Anusha_Akhtar'
+console.log(full_name);
+
+//Pascal Case =>Each word starts with an uppercase letter
+let StudentName = 'MehakHussain'
+console.log(StudentName);
