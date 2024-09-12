@@ -1,0 +1,18 @@
+//Interface =>A structure that defines the shape of an object
+interface friend1 {
+    name : string
+    age : number
+}
+interface friend2 {
+    name : string
+    age : number
+}
+let bestfriend : friend1 = {
+    name : 'Codequeen',
+    age : 17
+}
+let bestfriend1 : friend2 = {
+    name : 'Anusha',
+    age : 18
+}
+bestfriend = bestfriend1
