@@ -1,0 +1,5 @@
+//Json Data => JSON data is structured information in key-value pairs.
+let data2 = {
+    "name" : "Codequeen",
+    "age" : 17,
+}
