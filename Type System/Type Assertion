@@ -1,0 +1,3 @@
+//Type Assertion =>Informing the compiler of a variable's type
+let value5: any = 'hello';
+let str: string = value5 as string; // Type assertion
