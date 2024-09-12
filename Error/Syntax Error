@@ -1,0 +1,3 @@
+//Syntax Error => it happens when there is a mistake in the code structure.
+let name1 : string = "Codequeen"
+console.logger(name1);
