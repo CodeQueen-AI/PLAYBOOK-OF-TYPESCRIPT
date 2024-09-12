@@ -1,0 +1,3 @@
+//Json(Javascript Object Notation)=>JSON is a text format for storing key value pairs
+//Json Array =>JSON array is a list of values in square brackets
+let data1 = ['Anusha','Mahnoor','Quratulain']
