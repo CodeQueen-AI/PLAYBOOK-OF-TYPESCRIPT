@@ -1,0 +1,19 @@
+//Fresh Object =>A newly created object with its own set of properties
+let data = {name : 'codequeen' , id : 123}
+
+//Stale Object =>An old object that might not be useful anymore
+interface student {
+    name : string
+    id : number
+}
+let student : student = {
+    name : 'codequeen',
+    id : 23
+}
+let students : student = {
+    name : 'fatima',
+    id : 56
+}
+student = students
+students.name = "Anusha"
+console.log(students);
