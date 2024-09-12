@@ -1,0 +1,6 @@
+//Array =>Array is a collection of data
+let names : string[] = ['Codequeen' , 'Anusha' , 'Ifra' , 'Tayyaba']
+console.log(names);
+
+let name1 : (string | number | boolean)[] = ['Codequeen', 17 , true]
+console.log(name1);
