@@ -1,0 +1,10 @@
+//Anonymous Type =>A type without a name, used directly in a specific context
+let student1 : {
+    name : string,
+    Fname : string,
+    rollno : number,
+} = {
+    name : 'Anusha',
+    Fname : 'Akhtar',
+    rollno : 1234
+}
