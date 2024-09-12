@@ -1,0 +1,20 @@
+//Scopes =>it controls where in the code a variable and function can be used
+//Local Scope or Function Scope => variable can only be used inside the function where it was created
+function fruit(){
+    let fruitname = 'Mango'
+    console.log(fruitname);
+}
+fruit()
+//console.log(fruitname); Error
+//Block Scope =>variable is only accessible inside the block where its defined
+{
+    let x = 10;
+    console.log(x); 
+}
+//console.log(x); error
+
+//Global Scope =>variable is accessible from anywhere in your code
+let count = 5
+{
+    console.log(count);
+}
