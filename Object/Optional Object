@@ -1,0 +1,8 @@
+//Optional Object =>An object where certain properties are not required
+interface manager {
+    name : string,
+    id? : number
+}
+let manager1 : manager = {
+    name : 'Anusha'
+}
