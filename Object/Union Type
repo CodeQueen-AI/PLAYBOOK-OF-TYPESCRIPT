@@ -1,0 +1,2 @@
+//Union Type => An object type where a property can be one of several specified types
+const example: { value: string | number } = { value: 42 };
