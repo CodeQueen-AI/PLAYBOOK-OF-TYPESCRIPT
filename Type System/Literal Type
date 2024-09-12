@@ -1,0 +1,3 @@
+//Literal Type =>it represents specific values
+let customer : 'Codequeen' | 123
+customer : 'Codequeen'
