@@ -1,0 +1,20 @@
+//Array Of Objects => A collection of objects, each with its own properties, stored in a single array
+type person = {
+    name : string
+    idname : string
+    hobbies : string[]
+    education : {
+        matric : number
+        inter : number
+    }
+} 
+let person1 : person = {
+    name : 'Codequeen',
+    idname : 'Coder@',
+    hobbies : ['Study' , 'Gaming' , 'Coding'],
+    education : {
+        matric : 10,
+        inter : 2027
+    }
+}
+console.log(person1);
