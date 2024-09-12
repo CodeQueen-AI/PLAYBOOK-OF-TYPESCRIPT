@@ -1,0 +1,24 @@
+//Datatype =>A datatype indicates the type of value like string,number,boolean
+//String => String is used to text
+let fullname : string = "codequeen"
+
+//Number => Number is represented by counts
+let num : number = 34
+
+//Boolean =>boolean is true or false
+let isActive : boolean = true;
+
+//Any =>Any can be any type of value
+let fruit : any = 'Apple'
+
+//BigInt =>BigInt is a large integer
+let bigInt = (0.444)
+
+//Unknown =>Unknown is any type, but not known
+let std1 : unknown = "Anusha"
+
+//Null =>No value
+let std2 : null = null
+
+//Undefined =>A variable has no value.
+let std3 : undefined = undefined
