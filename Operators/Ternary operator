@@ -1,0 +1,5 @@
+//Ternary operator => ?, :
+let std = 'Codequeen'
+let age = 17
+std === 'Codequeen' && age === 17
+?console.log('College Student') : console.log('Uni Student');
