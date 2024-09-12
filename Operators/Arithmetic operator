@@ -1,0 +1,6 @@
+//Operators => Operators are special keyword that are used to perform operations on operands
+
+//Arithematics operators => +, -, *, /, %, ** (Perform mathematical calculations)
+console.log(2 ** 2); //4
+console.log(2 / 4);
+console.log(100 - 34);
