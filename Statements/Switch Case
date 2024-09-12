@@ -1,0 +1,33 @@
+//Switch case =>switch case selects and executes code based on the value of a variable.
+let number : number = 70
+switch(number){
+    case 90:
+        console.log("A1");
+    break;
+    case 80:
+        console.log("B");
+    break;
+    case 70:
+        console.log("C");
+    break;
+    case 60:
+        console.log("D");
+    break;
+    default :
+    console.log("Fail");
+}
+
+let fruit : string = "Orange"
+switch(fruit){
+    case "Apple":
+        console.log('Apple');
+    break;
+    case "Mango":
+        console.log('Mango');
+    break;
+    case "Orange":
+        console.log('Orange');
+    break;
+    default : 
+        console.log('Unknown Fruit');
+}
