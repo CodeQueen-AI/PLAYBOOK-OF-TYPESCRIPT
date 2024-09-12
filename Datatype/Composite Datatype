@@ -1,0 +1,18 @@
+//Composite Datatype => Data types that can hold multiple values such as arrays , objects , Tuples , Enum 
+//Array => Collection of Data
+let Evennumber : number[] = [0, 2, 4, 6, 8, 10]
+
+//Object =>Collections Of key-Value pairs
+let person : {name : string, age : number} = {name : "Codequeen" , age : 17}
+
+//Tuples =>Tuples are arrays with a fixed number of elements where each element can have a different type
+let tuple : [string , number] = ['Codequeen' , 17]
+
+//Enum => it is a way to define a set of named constants
+enum Color {
+    Red, 
+    Green,
+    Blue,
+}
+let color : Color = Color.Green
+console.log(color);
