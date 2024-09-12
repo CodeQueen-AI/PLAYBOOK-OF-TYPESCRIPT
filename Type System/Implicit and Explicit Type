@@ -1,0 +1,5 @@
+//Implicit Type and Type Inference=>it automatically infer the type of variable
+let value2 = 17
+
+//Explicit type and Type Annotation=>set the type of a variable
+let names : string = 'codequeen'
