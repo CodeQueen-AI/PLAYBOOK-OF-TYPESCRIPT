@@ -1,0 +1,14 @@
+//Type Usage=>Specifies the shape and properties of an object
+type idtype = number
+type nametype = string
+type agetype = number
+let names : nametype = "codequeen"
+let age : agetype = 17
+let id : idtype = 13
+
+let employee = {
+   emid : id,
+   emname : names,
+   emage : age
+}
+console.log(employee);
