@@ -1,0 +1,10 @@
+//Returning Function values =>A function return value is the result it gives back after completing its task
+function names() : string {
+    return "Codequeen"
+}
+console.log(names);
+
+function sum() : number {
+    return 2 + 2
+}
+console.log(sum());
