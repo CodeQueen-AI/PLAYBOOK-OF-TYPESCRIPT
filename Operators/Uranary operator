@@ -1,0 +1,29 @@
+//Uranary operator => ++ , --
+//Pre Increament(++a)
+let num = 10
+++num 
+console.log(num);//11
+console.log(++num); //12
+console.log(num);//12
+
+//Post Increamnt(a++)
+let num1 = 5
+num1++
+console.log(num1); //6
+console.log(num1++);//6 q ken num1 ko parha aur stop hogaya isne age ++ parha hi nhi likin jn age log kiya to usko parhna parha 
+console.log(num1);//7
+
+//Pre Decreament(--a)
+let num2 = 10
+--num2
+console.log(num2);//9
+console.log(--num2);//8
+console.log(num2);//8
+
+//Post Decreament(a--)
+let num3 = 5
+num3--
+console.log(num3);//4
+console.log(num3--);//4
+console.log(num3);//3
+
