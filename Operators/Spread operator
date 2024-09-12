@@ -1,0 +1,4 @@
+//Spread operator => ...
+let arr = ['Codequeen','Anusha']
+let array = [...arr,'Tayyaba']
+console.log(array);
