@@ -1,0 +1,7 @@
+//Nested Array =>A nested array means having other arrays inside an array
+let arr  = ['Codequeen' , 'Anusha' , 'Ifra' ,['Ayesha' , 'Tayyaba']];
+console.log(arr[2]);
+
+let arr1  = ['Codequeen' , 'Anusha' , 'Ifra' ,['Ayesha' , 'Tayyaba']];
+let nestedarr = arr1[2]
+console.log(nestedarr)
