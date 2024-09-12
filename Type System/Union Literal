@@ -1,0 +1,6 @@
+//Union Literal =>A union literal in TypeScript allows a variable to hold one of several specific literal values.
+type data = string | number | boolean 
+type id = data | any
+let data1 : id
+data1 = 'Codequeen'
+data1 = 123
