@@ -1,0 +1,22 @@
+//Type Conversion Methods =>techniques to convert one datatype to another type
+//String to number
+let num : number = 123
+let names : string = num.toString(); //Convert number to string
+let newnumber : number = Number(names);//Convert string to number
+
+//Boolean to String
+let isAlive : boolean = true
+let boolStr: string = isAlive.toString(); // Convert boolean to string
+let newBool: boolean = Boolean("false"); // Convert string to boolean
+
+//Number to Boolean
+let num1: number = 1;
+let numBool: boolean = Boolean(num1); // Convert number to boolean
+let bool: boolean = true;
+let boolNum: number = Number(bool); // Convert boolean to number
+
+//String to boolean 
+let str: string = "true";
+let strBool: boolean = str === "true"; // Convert string to boolean
+let bool1: boolean = false;
+let boolStr1: string = bool1.toString(); // Convert boolean to string
