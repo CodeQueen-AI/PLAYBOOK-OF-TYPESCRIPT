@@ -1,0 +1,4 @@
+//Empty Array =>An array with no elements
+let emptyArr: number[] = [];
+console.log(emptyArr);
+//emptyArr.length is 0
