@@ -1,0 +1,5 @@
+//Rest parameter =>A rest parameter gathers any number of extra arguments into a single array
+function sum3(num1 : number , num2 : number , ...other : number[]){
+    console.log(num1 + num2 );
+}
+sum3(4 , 2 , 9 , 4)
