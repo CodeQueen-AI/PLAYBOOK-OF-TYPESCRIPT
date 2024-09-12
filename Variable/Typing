@@ -1,0 +1,10 @@
+//Static Typing =>Variable types are checked and fixed at compile time, and cannot change.
+let aname: string = 'Codequeen'
+//names = 123 Error
+console.log(aname);
+
+//Dynamic Typing =>Variable types are checked and can change at runtime.
+let value : any;
+value = 'Codequeen'
+value = 17
+value = true
