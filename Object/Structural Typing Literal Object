@@ -1,0 +1,18 @@
+//Structural Typing Literal Object =>An object type defined by its shape and properties not by a specific name
+interface ball {
+    diameter : number
+    radius : number
+}
+interface sphere {
+    diameter : number
+    radius : number
+}
+let Ball : ball = {
+    diameter : 60,
+    radius : 35,
+}
+let Sphere : sphere = {
+    diameter : 15,
+    radius : 10,
+} 
+Ball = Sphere
