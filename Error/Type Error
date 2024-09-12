@@ -1,0 +1,3 @@
+//Error => when something goes wrong in the code
+//Type error => when use a value that does not match the expected type
+let age : number = "Seventeen"
