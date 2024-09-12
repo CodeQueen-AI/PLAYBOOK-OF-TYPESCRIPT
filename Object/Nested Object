@@ -1,0 +1,16 @@
+//Nested Object =>An object that contains other objects 
+type author = {
+    firstname : string
+    lastname : string 
+}
+type book = {
+    author : author 
+    name : string
+}
+let detail = {
+    author : {
+        firstname : 'Zia',
+        lastname : 'Khan'
+    },
+    name : 'Codequeen'
+}
