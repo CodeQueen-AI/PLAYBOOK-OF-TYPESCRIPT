@@ -1,0 +1,13 @@
+Destructing Function =>Destructuring extracts values from objects or arrays into variables
+//object
+function printPerson({ name, age }: { name: string, age: number }) {
+    console.log(`Name: ${name}, Age: ${age}`);
+}
+printPerson({ name: "Codequeen", age: 17 });
+
+//Array
+// Function with array destructuring
+function sum([a, b]: [number, number]): number {
+    return a + b;
+}
+console.log(sum([4, 5])); 
