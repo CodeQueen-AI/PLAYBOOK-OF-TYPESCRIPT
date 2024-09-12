@@ -1,0 +1,4 @@
+//Intersection type =>it combines multiple types into one
+type User1 = { name: string; };
+type Admin1 = User1 & { role: string; };
+let admins: Admin1 = { name: 'Alice', role: 'admin' };
