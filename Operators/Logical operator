@@ -1,0 +1,6 @@
+//Logical operator => &&, ||, ! (checking if statements are true or false)
+let a = true;
+let b = false;
+console.log(a && b); //Check both side (false)
+console.log(a || b);//Check One side (true)
+console.log(!b); //it swaps the value true becomes false and false becomes true
