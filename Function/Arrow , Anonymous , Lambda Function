@@ -1,0 +1,10 @@
+//Arrow , Anonymous , Lambda Function =>An arrow function is a short way to write a function using =>
+let data = () => {
+    console.log('Hello World');
+}
+data();
+
+let data1 = (names : string = 'Codequeen') => {
+    console.log(names);
+}
+data1()
