@@ -1,0 +1,28 @@
+//Nested if else => Nested if-else statements are if-else blocks placed inside one another to handle multiple levels of conditions
+let temperature : number = 10
+if(temperature === 30){
+    console.log("it is very hot outside");
+}else if(temperature === 20){
+    console.log("it is warm outside");
+}else{
+    console.log('its cool outide');
+}
+
+let marks = 90
+if(marks >= 90){
+    console.log("A1");
+}else if(marks >= 80){
+    console.log("A");
+}else if(marks >= 70){
+    console.log("B");
+}else if(marks >= 70){
+    console.log("B");
+}else if(marks >= 60){
+    console.log("C");
+}else if(marks >= 50){
+    console.log("D");
+}else if(marks >= 40){
+    console.log("E");
+}else{
+    console.log("Fail");
+}
