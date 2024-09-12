@@ -1,0 +1,16 @@
+//Object Aliase =>A name used to refer to an object type for easier use 
+type user = {
+    name : string
+    id : number
+    address : string
+}
+let user1 : user = {
+    name : 'Codequeen',
+    id : 123,
+    address : 'xyz',
+}
+let user2 : user = {
+    name :'Anusha',
+    id : 567,
+    address : 'xyz'
+}
