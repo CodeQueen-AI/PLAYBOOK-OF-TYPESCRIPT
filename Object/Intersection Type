@@ -1,0 +1,16 @@
+//Intersection Type =>A type that combines multiple types into one
+interface employee {
+    name : string,
+    emailid : number
+}
+interface customer {
+    cname : string
+    cid : number
+}
+type detail = employee & customer 
+let info : detail = {
+    name : 'Ayesha',
+    emailid : 158,
+    cname : 'mehak',
+    cid : 224
+}
