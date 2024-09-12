@@ -1,0 +1,15 @@
+//if else =>it is a decision-making statement that directs the flow of code based on a condition.
+let marks : number = 80;
+if(marks >= 80){
+    console.log("You have pass the exams");
+}
+else{
+    console.log("You have the fail exams");
+}
+
+let subject : string = "Computer Science"
+if(subject === "Computer Science"){
+    console.log("You are a computer science Students");
+}else{
+    console.log("You are a Pre-Medical Student");
+}
