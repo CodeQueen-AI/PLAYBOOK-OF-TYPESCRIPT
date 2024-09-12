@@ -1,0 +1,4 @@
+//Narrowing =>Making a type more specific based on conditions
+let std1 : string | number | boolean
+std1 = "Codequeen"
+console.log(std1);
