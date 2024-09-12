@@ -1,0 +1,22 @@
+//Variable => it is a Memory to store the data
+//keyword =>let, const and var
+let firstname = "Codequeen"
+console.log(firstname);
+
+//Reassign value of let
+let name1 = "Ayesha"
+name1 = "Anusha"
+console.log(name1);
+
+//const => constant value
+const fullname = "Codequeen"
+console.log(fullname);
+
+//var => var is a old version to declaring the variable in js
+var name2 = "Mehak"
+var name2 = "tayyaba"
+console.log(name2);
+
+var name3 = "Jiya"
+name3 = "fatima"
+console.log(name3);
