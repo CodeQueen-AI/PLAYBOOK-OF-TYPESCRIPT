@@ -1,0 +1,5 @@
+//Json Object =>A collection of key-value pairs
+let data3 = {
+    "name" : "Anusha",
+    "age" : 10,
+}
