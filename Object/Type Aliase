@@ -1,0 +1,3 @@
+//Type Aliase =>A name given to a specific object type for easier reference
+type Person = { name: string; age: number };
+const example1: Person = { name: "Alice", age: 30 };
